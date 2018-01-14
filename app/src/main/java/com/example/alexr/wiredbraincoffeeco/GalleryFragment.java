@@ -22,7 +22,7 @@ public class GalleryFragment extends Fragment {
 
         ArrayList<String> imageUrls = new ArrayList<String>();
         imageUrls.add("trail.jpg");
-        imageUrls.add("pluralsight.jpg");
+        imageUrls.add("bagel.jpg");
         imageUrls.add("ground.jpg");
         imageUrls.add("bag.jpg");
         imageUrls.add("beans.jpg");
