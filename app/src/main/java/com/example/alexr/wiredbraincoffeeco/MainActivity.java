@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             Fragment newFragment = null;
 
             switch (item.getItemId()) {
-                case R.id.navigation_menu:
+                case R.id.navigation_featured:
                     newFragment = new FeaturedFragment();
                     break;
                 case R.id.navigation_gallery:

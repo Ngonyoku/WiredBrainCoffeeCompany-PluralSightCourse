@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.GridView;
 
-import com.example.alexr.wiredbraincoffeeco.Helpers.GridAdapter;
+import com.example.alexr.wiredbraincoffeeco.Utilities.GridAdapter;
 
 import java.util.ArrayList;
 
@@ -21,14 +21,6 @@ public class GalleryFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         ArrayList<String> imageUrls = new ArrayList<String>();
-        imageUrls.add("trail.jpg");
-        imageUrls.add("bagel.jpg");
-        imageUrls.add("ground.jpg");
-        imageUrls.add("bag.jpg");
-        imageUrls.add("beans.jpg");
-        imageUrls.add("table.jpg");
-        imageUrls.add("coffee.jpg");
-        imageUrls.add("granola.jpg");
 
         GridView gridGallery = (GridView) view.findViewById(R.id.gridView);
         GridAdapter gridAdapter = new GridAdapter(getContext(), R.layout.grid_item_layout, imageUrls);

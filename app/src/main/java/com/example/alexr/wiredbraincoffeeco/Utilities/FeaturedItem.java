@@ -1,4 +1,4 @@
-package com.example.alexr.wiredbraincoffeeco.Helpers;
+package com.example.alexr.wiredbraincoffeeco.Utilities;
 
 public class FeaturedItem {
 
