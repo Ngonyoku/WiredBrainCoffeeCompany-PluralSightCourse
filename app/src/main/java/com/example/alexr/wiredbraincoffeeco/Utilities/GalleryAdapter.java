@@ -9,12 +9,12 @@ import android.widget.ArrayAdapter;
 
 import java.util.ArrayList;
 
-public class GridAdapter extends ArrayAdapter {
+public class GalleryAdapter extends ArrayAdapter {
     private Context context;
     private int layoutResourceId;
     private ArrayList data;
 
-    public GridAdapter(Context context, int layoutResourceId, ArrayList data) {
+    public GalleryAdapter(Context context, int layoutResourceId, ArrayList data) {
         super(context, layoutResourceId, data);
         this.layoutResourceId = layoutResourceId;
         this.context = context;
