@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
         android:layout_marginTop="0dp"
-        android:text="Coffee for the Mind"
+        android:text="@string/slogan"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -22,7 +22,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="6dp"
-        android:text="Thanks so much for checking out our app! We're committed to the absolute best coffee experience around, and we hope you are too."
+        android:text="@string/landing_intro"
         android:textAlignment="center" />
 
     <Button
@@ -35,6 +35,6 @@
         android:layout_marginTop="12dp"
         android:paddingStart="36dp"
         android:onClick="getStarted"
-        android:text="Get Started"
+        android:text=""
         android:textColor="@color/white" />
 </LinearLayout>
